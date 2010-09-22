@@ -17,9 +17,6 @@ AC_PROG_CPP
 AC_PROG_INSTALL
 AC_PROG_RANLIB
 AC_CHECK_TOOL(AR, ar)
-if test -z "$ac_ct_AR"; then
-    AC_MSG_ERROR(cannot find ar)
-fi
 
 m4_include(m4/feature_macros.m4)
 
